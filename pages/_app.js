@@ -32,7 +32,7 @@ export default function App({ Component, pageProps }) {
       localStorage.setItem("partner", partner);
     }
 
-    router.replace(router.pathname, undefined, { shallow: true });
+    // router.replace(router.pathname, undefined, { shallow: true });
   }, [router.isReady, name, partner]);
 
   return (
